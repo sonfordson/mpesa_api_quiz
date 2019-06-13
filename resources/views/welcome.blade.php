@@ -1,0 +1,22 @@
+@extends('layouts.app')
+
+@section('content')
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+                {{-- <example-component></example-component> --}}
+
+            <div class="card">
+                 <div class="card-body">
+                    <passport-clients></passport-clients>
+
+                </div>
+                <div class="card-body">
+                    <passport-authorized-clients></passport-authorized-clients>
+                    <passport-personal-access-tokens></passport-personal-access-tokens>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@endsection
